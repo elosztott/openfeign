@@ -15,6 +15,7 @@ s
         <module>article-memory-crud-eureka</module>
         <module>openfeign-client</module>
         <module>openfeign-client-ribbon-eureka</module>
+        <module>spring-cloud-config</module>
     </modules>
 
 </project>

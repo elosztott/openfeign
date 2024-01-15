@@ -1,4 +1,8 @@
 
+```shell
+mvn spring-boot:run
+```
+
 When the client starts it send http GET request to config server like this
 ```
 GET /foo/default HTTP/1.1

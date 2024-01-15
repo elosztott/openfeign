@@ -48,6 +48,14 @@ curl -X DELETE http://localhost:8080/article/2
 curl -X GET http://localhost:8080/article 
 ```
 
+### id:1
+```shell
+curl -X POST http://localhost:8081/article \
+   -H 'Content-Type: application/json' \
+   -H 'Accept: application/json' \
+   -d '{"id": 1, "author": "author 81", "title": "title 81", "pages": 81}'
+```
+
 * GET /articles/
 * POST /articles/
 * PUT /articles/:id

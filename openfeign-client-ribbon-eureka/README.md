@@ -14,9 +14,15 @@ mvn package
 ```shell
 mvn spring-boot:run
 ```
-check the properties file
-`spring.cloud.openfeign.client.config.articles.url=http://localhost:8080`
 
+no service provider parameters in properties file.
+It comes from Eureka.
+The application gets the parameters of **articles**, because
+```java
+@FeignClient("articles")
+public interface ArticlesClient {
+}
+```
 ## get articles
 ```shell
 curl -X GET http://localhost:12121/find-all-big-book 

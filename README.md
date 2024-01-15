@@ -23,6 +23,7 @@ Spring boot guess the details based on
 - available classes in classpath
 - existing bean (created by developer)
 - property value (application.properties)
+- annotated items
 
 ## Spring cloud setup
 - spring initializr
@@ -434,6 +435,12 @@ spring.config.import: vault://
 a la:
 _spring.config.import: configserver_
 
+```
+/secret/{application}/{profile}
+/secret/{application}
+/secret/{default-context}/{profile}
+/secret/{default-context}
+```
 
 ## Spring Consul
 

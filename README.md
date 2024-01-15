@@ -470,6 +470,9 @@ http://localhost:8500/
 vault server -dev
 ```
 
+By default, Spring Boot will try to connect to the Consul agent at localhost:8500.
+
+
 # Appendix
 
 ```plantuml

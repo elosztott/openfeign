@@ -1,0 +1,351 @@
+GET http://127.0.0.1:12121/find-all-big-book
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T202016.200.json
+
+###
+
+GET http://127.0.0.1:12121/find-all-big-book
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T201957.200.json
+
+###
+
+GET http://127.0.0.1:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T200634.200.txt
+
+###
+
+GET http://127.0.0.1:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T200458.200.txt
+
+###
+
+GET http://127.0.0.1:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T194438.200.txt
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T194428.200.json
+
+###
+
+GET http://127.0.0.1:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T194311.200.txt
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T192116.200.json
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-15T192056.200.json
+
+###
+
+GET http://127.0.0.1:8761
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-14T204413.200.html
+
+###
+
+GET http://127.0.0.1:8761/actuator/health
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-14T204359.200.json
+
+###
+
+GET http://127.0.0.1:8761/actuator
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-14T204230.200.json
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T223955.200.json
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T223602.200.json
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T223450.200.json
+
+###
+
+POST http://127.0.0.1:8082/actuator/refresh
+Accept: application/vnd.spring-boot.actuator.v3+json
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T223123.200.json
+
+###
+
+GET http://127.0.0.1:8888/key
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T221951.404.json
+
+###
+
+GET http://127.0.0.1:8888/actuator/health
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T221704.200.json
+
+###
+
+GET http://localhost:8082/actuator
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220652.200.json
+
+###
+
+GET http://localhost:8082/actuator/health
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220644.200.json
+
+###
+
+GET http://localhost:8082/actuator
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220628.200.json
+
+###
+
+GET http://localhost:8082/refresh
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220607.404.json
+
+###
+
+GET http://localhost:8082/actuator/refresh
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220553.404.json
+
+###
+
+GET http://localhost:8082/actuator/restart
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220446.404.json
+
+###
+
+GET http://localhost:8082/actuator/env
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220412.404.json
+
+###
+
+GET http://localhost:8082/actuator/env
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220407.404.json
+
+###
+
+GET http://localhost:8082/actuator
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220313.200.json
+
+###
+
+GET http://localhost:8082/actuator
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220309.200.json
+
+###
+
+GET http://localhost:8082/actuator/refresh
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220247.404.json
+
+###
+
+GET http://localhost:8082/actuator/refresh
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T220224.404.json
+
+###
+
+GET http://localhost:8082/actuator/health
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215628.200.json
+
+###
+
+GET http://localhost:8082/actuator/health
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215626.200.json
+
+###
+
+GET http://localhost:8082/actuator/health
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215625.200.json
+
+###
+
+GET http://localhost:8082/actuator/health
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215603.200.json
+
+###
+
+GET http://localhost:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215533.200.txt
+
+###
+
+GET http://localhost:8082
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T215035.200.txt
+
+###
+
+GET http://127.0.0.1:8082/actuator/health
+Accept: application/vnd.spring-boot.actuator.v3+json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-01-13T214919.200.json
+
+###
+

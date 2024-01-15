@@ -53,7 +53,7 @@ curl -X GET http://localhost:8080/article
 curl -X POST http://localhost:8081/article \
    -H 'Content-Type: application/json' \
    -H 'Accept: application/json' \
-   -d '{"id": 1, "author": "author 81", "title": "title 81", "pages": 81}'
+   -d '{"id": 1, "author": "author 81", "title": "title 81", "pages": 5581}'
 ```
 
 * GET /articles/

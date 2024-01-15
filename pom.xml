@@ -16,6 +16,7 @@ s
         <module>openfeign-client</module>
         <module>openfeign-client-ribbon-eureka</module>
         <module>spring-cloud-config</module>
+        <module>gateway</module>
     </modules>
 
 </project>

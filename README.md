@@ -291,8 +291,13 @@ Spring Cloud Gateway aims to provide a simple, yet effective way to route to API
 - API gateway
 - Service discovery
 - Retry support
-- filter chains
-- dependency **spring-cloud-starter-gateway**
+- filter chains (chain of responsibility pattern)
+- dependency 
+  - **spring-cloud-starter-gateway** vagy
+  - **spring-cloud-starter-gateway-mvc**
+
+![Alt text](https://docs.spring.io/spring-cloud-gateway/reference/_images/spring_cloud_gateway_diagram.png
+"a title")
 
 **Route**: The basic building block of the gateway. It is defined by an 
 - ID, 
@@ -308,6 +313,9 @@ This lets you match on anything from the HTTP request, such as headers or parame
 f.e. **`r -> r.path("/get")`**
 
 **Filter**: These are instances of **GatewayFilter** that have been constructed with a specific factory. 
+
+**URI**: uri of service provider. If the URL has a **lb** scheme (e.g., lb://articles), it’ll use the Spring Cloud LoadBalancerClient to resolve the name (i.e., articles) to an actual host and port.
+
 
 Here, you can modify 
 - requests 
@@ -349,7 +357,7 @@ public class DemogatewayApplication {
 ```
 
 property based config example
-```properties
+```yaml
 spring:
   cloud:
     gateway:
@@ -360,7 +368,7 @@ spring:
         - Cookie=mycookie,mycookievalue
 ```
 
-```properties
+```yaml
 spring:
   cloud:
     gateway:
@@ -371,7 +379,7 @@ spring:
         - After=2017-01-20T17:42:47.789-07:00[America/Denver]
 ```
 
-```properties
+```yaml
 spring:
   cloud:
     gateway:
@@ -383,7 +391,7 @@ spring:
 ```
 
 cors example
-```properties
+```yaml
 spring:
   cloud:
     gateway:

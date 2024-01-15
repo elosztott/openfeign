@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: otp
+          uri: https://otpbank.hu
+          predicates:
+            - Path=/otp

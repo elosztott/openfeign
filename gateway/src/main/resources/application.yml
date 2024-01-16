@@ -1,4 +1,6 @@
 spring:
+  application:
+    name: gateway
   cloud:
     gateway:
       routes:
@@ -6,3 +8,11 @@ spring:
           uri: https://otpbank.hu
           predicates:
             - Path=/otp
+
+server:
+  port: 8090
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
